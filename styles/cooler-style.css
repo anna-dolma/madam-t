@@ -1,0 +1,51 @@
+html {
+    /* px means "pixels". The base font size is now 10 pixels high */
+    font-size: 10px;
+    /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+    font-family: "Roboto Slab", serif;
+    background-color: #482218
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: saddlebrown;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffeee6;
+    padding: 0 20px 20px 20px;
+    border: 5px #af734a;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #482218;
+    text-shadow: 3px 3px 1px saddlebrown;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #af734a;
+    color: #ffeee6;
+    text-align: center;
+}
