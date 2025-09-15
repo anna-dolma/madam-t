@@ -6,12 +6,6 @@ html {
     background-color: #482218
 }
 
-h1 {
-    font-size: 60px;
-    text-align: center;
-    color: saddlebrown;
-}
-
 p,
 li {
     font-size: 16px;
@@ -29,9 +23,18 @@ body {
 
 h1 {
     margin: 0;
-    padding: 20px 0;
+    padding: 10px 0;
     color: #482218;
-    text-shadow: 3px 3px 1px saddlebrown;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0;
+    padding: 5px 0;
+    color: #482218;
+    text-align: left;
+    font-size: 30px;
 }
 
 img {
@@ -48,4 +51,32 @@ img {
     background-color: #af734a;
     color: #ffeee6;
     text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #af734a;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ffeee6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ffeee6;
+    color: #482218;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: saddlebrown;
+    color: #ffeee6;
 }
