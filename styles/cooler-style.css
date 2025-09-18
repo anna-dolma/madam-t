@@ -24,9 +24,19 @@ body {
 h1 {
     margin: 0;
     padding: 10px 0;
-    color: #482218;
+    color: saddlebrown;
     text-align: center;
     font-size: 50px;
+    font-family: "Libertinus Keyboard", system-ui;
+}
+
+p.subheading {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #482218;
+    font-family: "Libertinus Keyboard", system-ui;
 }
 
 h2 {
@@ -35,6 +45,7 @@ h2 {
     color: #482218;
     text-align: left;
     font-size: 30px;
+    font-family: "Libertinus Keyboard", system-ui;
 }
 
 img {
@@ -95,6 +106,7 @@ img {
 .flex-text {
     width: 700px;
     flex: 2 1 0;
+    padding: 10px;
 }
 
 .flex-image {
