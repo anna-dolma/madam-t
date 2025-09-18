@@ -14,10 +14,10 @@ li {
 }
 
 body {
-    width: 900px;
+    width: 1200px;
     margin: 0 auto;
     background-color: #ffeee6;
-    padding: 0 20px 20px 20px;
+    padding: 0 10px 10px 10px;
     border: 5px #af734a;
 }
 
@@ -41,6 +41,7 @@ img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+    padding: 0;
 }
 
 .footer {
@@ -79,4 +80,23 @@ img {
 .topnav a.active {
     background-color: saddlebrown;
     color: #ffeee6;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.resize {
+    max-width:60%;
+    max-height:60%;
+}
+
+.flex-text {
+    width: 700px;
+    flex: 2 1 0;
+}
+
+.flex-image {
+    flex: 2 1 0;
 }
