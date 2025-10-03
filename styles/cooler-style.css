@@ -3,7 +3,8 @@ html {
     font-size: 10px;
     /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
     font-family: "Roboto Slab", serif;
-    background-color: #482218
+    background: #482218 url("../bilder/background-2.jpeg") no-repeat left top;
+    background-size: cover;
 }
 
 p,
