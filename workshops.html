@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workshops</title>
+    <link href="styles/cooler-style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="bilder/favicon.jpeg">
+    <script async src="scripts/workshops-script.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <a href="schokoladenwelt-home.html">Handgemachte Schokolade</a>
+        <a href="anfertigungen.html">Individuelle Anfertigungen</a>
+        <a href="workshops.html">Workshops</a>
+    </div>
+    <h1>Schokoladen-Workshops</h1>
+    <p>
+        Schokolade essen ist einfach - Schokolade herstellen auch! Wenn Du Lust hast, den Prozess der Schokoladenherstellung Schritt für Schritt zu lernen, bist Du hier richtig.
+        Die Schokoladenworkshops finden aller zwei Monate statt, aktuelle Termine und Orte stehen hier auf der Website. Die Anmeldung erfolgt per E-Mail an xocomirjam@posteo.de. <br>
+        Nächster Workshop: DD.MM.JJJJ im Schlaraffenland xD
+    </p>
+    <button onclick="hidetable('mit-set')">Ohne Set</button>
+    <button onclick="hidetable('ohne-set')">Mit Set</button>
+    <div id="mit-set">
+        <p>Preise mit Set</p>
+        <table>
+            <tr>
+                <th>Basis</th>
+                <th>Fortgeschritten</th>
+                <th>Gordon Ramsay</th>
+            </tr>
+            <tr>
+                <td>17 EUR</td>
+                <td>19 EUR</td>
+                <td>23 EUR</td>
+            </tr>
+        </table>
+    </div>
+    <div id="ohne-set" style="display: none">
+        <p>Preise ohne Set</p>
+        <table>
+            <tr>
+                <th>Basis</th>
+                <th>Fortgeschritten</th>
+                <th>Gordon Ramsay</th>
+            </tr>
+            <tr>
+                <td>29 EUR</td>
+                <td>31 EUR</td>
+                <td>37 EUR</td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <p>In meinem <a href="https://pure-xocolate.de/blogs/news">Blog</a> findest Du regelmäßig inspirierende Schokoladen-Rezepte</p>
+        <p>Kontakt: xocomirjam@posteo.de</p>
+    </div>
+</body>
+</html>

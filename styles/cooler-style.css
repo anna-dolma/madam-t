@@ -113,3 +113,13 @@ img {
 .flex-image {
     flex: 2 1 0;
 }
+
+table, th, td {
+    border: 2px saddlebrown solid;
+    font-size: 16px;
+}
+
+button {
+    background-color: #af734a;
+    border: none;
+}
