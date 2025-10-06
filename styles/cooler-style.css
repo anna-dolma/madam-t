@@ -14,6 +14,14 @@ li {
     letter-spacing: 1px;
 }
 
+a, a:visited {
+    color: #ffeee6;
+}
+
+a:hover, a:focus {
+    color: #af734a;
+}
+
 body {
     width: 1200px;
     margin: 0 auto;
@@ -46,7 +54,16 @@ h2 {
     color: #482218;
     text-align: left;
     font-size: 30px;
-    font-family: "Libertinus Keyboard", system-ui;
+    font-family: "Roboto Slab", system-ui;
+}
+
+h3 {
+    margin: 0;
+    padding: 5px 0;
+    color: #4b2609;
+    text-align: left;
+    font-size: 23px;
+    font-family: "Roboto Slab", system-ui;
 }
 
 img {
@@ -61,14 +78,14 @@ img {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #af734a;
+    background-color: #783e0e;
     color: #ffeee6;
     text-align: center;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #af734a;
+    background-color: #783e0e;
     overflow: hidden;
 }
 
@@ -115,11 +132,35 @@ img {
 }
 
 table, th, td {
-    border: 2px saddlebrown solid;
+    border: 1px solid #ffeee6;
+    border-collapse: collapse;
+    background-color: #783e0e;
     font-size: 16px;
+    color: #ffeee6;
+    padding: 5px;
 }
 
 button {
-    background-color: #af734a;
+    background-color: #783e0e;
     border: none;
+    font-size: 16px;
+    color: #ffeee6;
+}
+
+button:focus {
+    color: #ffeee6;
+    background-color: #482218;
+}
+
+div.scroll-container {
+    background-color: #783E0E;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    display: inline-block;
+}
+
+div.scroll-container img {
+    padding: 10px;
 }
