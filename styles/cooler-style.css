@@ -1,7 +1,5 @@
 html {
-    /* px means "pixels". The base font size is now 10 pixels high */
     font-size: 10px;
-    /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
     font-family: "Roboto Slab", serif;
     background: #482218 url("../bilder/background-2.jpeg") no-repeat left top;
     background-size: cover;
@@ -33,7 +31,7 @@ body {
 h1 {
     margin: 0;
     padding: 10px 0;
-    color: saddlebrown;
+    color: #631e00;
     text-align: center;
     font-size: 50px;
     font-family: "Libertinus Keyboard", system-ui;
@@ -99,15 +97,8 @@ img {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ffeee6;
-    color: #482218;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: saddlebrown;
+.topnav a:hover, .topnav a:active {
+    background-color: #b67e50;;
     color: #ffeee6;
 }
 
@@ -153,7 +144,7 @@ button:focus {
 }
 
 div.scroll-container {
-    background-color: #783E0E;
+    background-color: #b67e50;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
