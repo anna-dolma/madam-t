@@ -71,6 +71,9 @@ h3 {
     .flex-container {
         flex-direction: column;
     }
+    p {
+        font-size: 20px;
+    }
 }
 
 img {
