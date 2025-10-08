@@ -64,6 +64,12 @@ h3 {
     font-family: "Roboto Slab", system-ui;
 }
 
+@media screen and (max-width: 800px) {
+    h1, h2, h3, h4 {
+        font-family: "Bungee", "sans-serif";
+    }
+}
+
 img {
     display: block;
     margin: 0 auto;
