@@ -21,7 +21,7 @@ a:hover, a:focus {
 }
 
 body {
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
     background-color: #ffeee6;
     padding: 0 10px 10px 10px;
@@ -71,7 +71,7 @@ h3 {
     .flex-container {
         flex-direction: column;
     }
-    p {
+    p, li {
         font-size: 20px;
     }
 }
