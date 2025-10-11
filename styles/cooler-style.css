@@ -78,9 +78,6 @@ h3 {
     body {
         width: 100%;
     }
-    .footer {
-        display: none;
-    }
 }
 
 img {
@@ -98,15 +95,48 @@ img {
     background-color: #783e0e;
     color: #ffeee6;
     text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-/* Add a black background color to the top navigation */
+input[type='checkbox'] {
+    display: none;
+}
+
+.expand-label {
+    display:block;
+    color: #ffeee6;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+}
+
+.expand-label:hover {
+    color: #af734a;
+}
+
+.expand-label::before {
+    transform: translateY(-2px);
+    transition: transform .2s ease-out;
+}
+
+.footer-content {
+    max-height: 0;
+    overflow: hidden;
+
+    transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .expand-label + .footer-content {
+    max-height: 100vh;
+}
+
 .topnav {
     background-color: #783e0e;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #ffeee6;
