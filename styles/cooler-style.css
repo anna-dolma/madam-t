@@ -186,6 +186,7 @@ div.scroll-container {
     overflow-y: hidden;
     white-space: nowrap;
     padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 div.scroll-container img {
@@ -201,10 +202,12 @@ div.scroll-container img {
     position: relative;
     padding-bottom: 23px;
     background-color: #b67e50;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .gallery-image {
     display: none;
+    padding: 5px 5px 5px 5px;
 }
 
 .cursor {
@@ -238,7 +241,7 @@ div.scroll-container img {
 }
 
 .number-text {
-    color: #482218;
+    color: #ffeee6;
     font-size: 16px;
     padding: 8px 12px;
     position: absolute;
