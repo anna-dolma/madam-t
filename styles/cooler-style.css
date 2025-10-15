@@ -55,6 +55,10 @@ h2 {
     font-family: "Roboto Slab", system-ui;
 }
 
+a h2:hover, a h2:focus {
+    color: #af734a;
+}
+
 h3 {
     margin: 0;
     padding: 5px 0;
@@ -281,7 +285,7 @@ div.scroll-container img {
     background-color: #b67e50;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     width: 96%;
-    padding: 16px;
+    padding: 16px 16px 16px 16px;
 }
 
 @media screen and (max-width: 800px) {
