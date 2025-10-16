@@ -256,9 +256,9 @@ div.scroll-container img {
 
 .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: #b67e50;
     padding: 2px 16px;
-    color: white;
+    color: #ffeee6;
 }
 
 .row:after {
